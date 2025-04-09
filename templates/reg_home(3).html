@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        body {
+            background-color: #f2f2f2;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            background-color: #3498db;
+            color: white;
+            padding: 10px;
+        }
+        a {
+            text-decoration: none;
+            color: #3498db;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #3498db;
+            color: white;
+            padding: 10px 20px;
+            margin: 10px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to AI Face Recognition Based Attendance System</h1>
+    <a class="btn" href="{{ url_for('login') }}">Login Page</a>
+    <a class="btn" href="{{ url_for('register') }}">Register Page</a>
+</body>
+</html>
